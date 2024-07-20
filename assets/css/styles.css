@@ -93,7 +93,7 @@ body.dark-theme {
 
 .header-logo{
   width: 95px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .change-theme,
@@ -205,6 +205,15 @@ input {
 }
 
 /*=============== NAV ===============*/
+
+@media screen and (max-width: 1024px) {
+  .header{
+    .header-logo{
+      margin-top: 35%;
+      width: 100px;
+    }
+  }
+}
 .nav {
   height: var(--header-height);
   display: flex;
@@ -222,7 +231,8 @@ input {
 }
 
 .nav__toggle {
-  font-size: 1.2rem;
+  font-size: 2.0rem;
+  margin-top: 10%;
   cursor: pointer;
 }
 
@@ -278,6 +288,7 @@ input {
 .scroll-header {
   background-color: var(--body-color);
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+  height: 10%;
 }
 
 .scroll-header .nav__logo,
@@ -696,6 +707,32 @@ input {
   
 }
 
+@media screen and (max-width: 1024px) {
+  .footer{
+    .footer-logo{
+      width: 40%;
+      margin-top: -10%;
+      margin-left: 35%;
+    }
+    .footer__description{
+      margin-left: 40%;
+    }
+    .map{
+      width: 80%;
+      margin-left: 15%;
+    }
+    .footer__social{
+      margin-left: 20%;
+    }
+    .ph-numb{
+      margin-top: 10%;
+      margin-left: 35%;
+      font-size: 20px;
+    }
+  }
+
+}
+
 .footer-logo{
   width: 130px;
 }
@@ -855,7 +892,7 @@ input {
     margin: 0;
   }
   .nav {
-    height: calc(var(--header-height) + 1.5rem);
+    height: calc(var(--header-height) + 2.5rem);
   }
   .nav__link {
     color: #1e4d54;
