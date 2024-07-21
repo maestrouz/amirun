@@ -145,6 +145,23 @@ a {
   text-decoration: none;
 }
 
+.beach-btn{
+  width: 200px;
+  height: 70px;
+  border: none;
+  background-color: #1E4D54;
+  color: #fff;
+  font-size: 24px;
+  font-family: var(--title-font);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.beach-btn:hover{
+  background-color: #102a2e;
+}
+
 img,
 video {
   max-width: 100%;
@@ -208,6 +225,7 @@ input {
 
 @media screen and (max-width: 1024px) {
   .header{
+    width: 100%;
     .header-logo{
       margin-top: 35%;
       width: 100px;
@@ -288,7 +306,7 @@ input {
 .scroll-header {
   background-color: var(--body-color);
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
-  height: 10%;
+  height: 15%;
 }
 
 .scroll-header .nav__logo,
@@ -1087,5 +1105,8 @@ input {
   .home__container,
   .home__img {
     height: 640px;
+  }
+  .scroll-header{
+    height: 10%;
   }
 }

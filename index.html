@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#b3a723" >
+    <meta name="theme-color" content="#b3a723" />
     <link rel="shortcut icon" href="assets/img/logo2.png" type="image/png" />
 
     <!--=============== REMIXICONS ===============-->
@@ -21,6 +21,9 @@
     <title>AMIRUN TRAVEL</title>
   </head>
   <body>
+    <div id="state">
+      <div id='ofline'>No internet Connection!</div>
+  </div>
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">
@@ -126,15 +129,18 @@
               Siz eng go'zal va yoqimli joylarni eng yaxshi narxlarda maxsus
               chegirmalar bilan topishingiz mumkin.
             </p>
+            <a href="#">
+              <button class="beach-btn">Batafsil</button>
+            </a>
           </div>
 
           <div class="about__img">
             <div class="about__img-overlay">
-              <img src="assets/img/1.jpg" alt="" class="about__img-one" />
+              <img src="assets/img/plyaj 1.jpg" alt="" class="about__img-one" />
             </div>
 
             <div class="about__img-overlay">
-              <img src="assets/img/2.jpg" alt="" class="about__img-two" />
+              <img src="assets/img/plyaj 2.jpg" alt="" class="about__img-two" />
             </div>
           </div>
         </div>
@@ -311,7 +317,9 @@
             <form action="" class="subscribe__form">
               <input type="text" placeholder="Email" class="subscribe__input" />
 
-              <button onclick="vibratePhone()" class="myButton">Yuborish</button>
+              <button onclick="vibratePhone()" class="myButton">
+                Yuborish
+              </button>
             </form>
           </div>
         </div>
@@ -354,7 +362,7 @@
             <br />
             <p class="footer__description">
               Yangicha hayotni <br />
-                 Kashf eting
+              Kashf eting
             </p>
             <div>
               <a
@@ -378,16 +386,13 @@
               >
                 <i class="ri-facebook-box-fill"></i>
               </a>
-              
             </div>
             <a class="ph-numb" href="tel:">+998XX-XXX-XX-XX</a>
           </div>
 
-         
-
           <div class="footer__data">
             <iframe
-            class="map"
+              class="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1060.2087389199355!2d69.19156167416033!3d41.27136336257142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae898aabea36cb%3A0x2485d1a068a1061b!2z0YPQu9C40YbQsCDQkNC7LdCl0L7RgNC10LfQvNC4IDUsIDEwMDE1Mywg0KLQsNGI0LrQtdC90YIsIFRhc2hrZW50LCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1721374186817!5m2!1sru!2s"
               width="600"
               height="300"
